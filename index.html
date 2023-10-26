@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Name - Code Portfolio</title>
+    <link rel="stylesheet" href="portfolio.css">
+    <style>
+      /* Reset default margin and padding for all elements */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Basic styles for the entire page */
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #f8f8f8;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+/* Navigation Bar styles */
+nav {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 0;
+}
+
+nav ul {
+  list-style-type: none;
+  text-align: center;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+  transition: color 0.3s ease-in-out;
+}
+
+nav ul li a:hover {
+  color: #ff6600; /* Trendy accent color */
+}
+
+/* Header Section styles */
+header {
+  text-align: center;
+  padding: 100px 0;
+  background-image: url('your-background-image.jpg'); /* Use your own background image */
+  background-size: cover;
+  color: #fff;
+}
+
+header h1 {
+  font-size: 3rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+header p {
+  font-size: 1.5rem;
+  font-weight: 300;
+}
+
+/* Section headings styles */
+h2 {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+/* Projects Section styles */
+.project {
+  background-color: #fff;
+  padding: 20px;
+  margin: 20px 0;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  transition: transform 0.2s ease-in-out;
+}
+
+.project:hover {
+  transform: translateY(-5px); /* Add a subtle hover effect */
+}
+
+.project h3 {
+  font-size: 1.8rem;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.project p {
+  color: #666;
+  margin-bottom: 20px;
+}
+
+.project a {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #ff6600;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 3px;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.project a:hover {
+  background-color: #ff3300; /* Slight color change on hover */
+}
+
+/* Contact Section styles */
+#contact {
+  text-align: center;
+  padding: 100px 0;
+  background-color: #333;
+  color: #fff;
+}
+
+#contact a {
+  color: #ff6600; /* Accent color for links */
+  text-decoration: none;
+  transition: color 0.3s ease-in-out;
+}
+
+#contact a:hover {
+  color: #ff3300; /* Slight color change on hover */
+}
+
+/* Footer styles */
+footer {
+  text-align: center;
+  padding: 20px 0;
+  background-color: #333;
+  color: #fff;
+}
+
+/* Responsive design for smaller screens */
+@media (max-width: 768px) {
+  header {
+      padding: 80px 0;
+  }
+
+  header h1 {
+      font-size: 2.5rem;
+  }
+
+  header p {
+      font-size: 1.2rem;
+  }
+
+  .project {
+      padding: 15px;
+  }
+}
+/* CSS for the image tag */
+img {
+    max-width: 100%; /* Ensure the image doesn't exceed its container width */
+    height: auto; /* Maintain the image's aspect ratio */
+    display: block; /* Remove any extra spacing around the image */
+    margin: 0 auto; /* Center the image horizontally */
+    border: 2px solid #0078d4; /* Add a border around the image */
+    border-radius: 10px; /* Rounded corners for the image */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow */
+}
+
+    </style>
+  
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav>
+        <ul>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Header Section -->
+    <header>
+        <h1 style="color: black;">VINO PRIYA</h1>
+        <p style="color: black;">Software Developer</p>
+    </header>
+
+    <!-- About Me Section -->
+    <section id="about">
+        <h2>About Me</h2>
+        <img src="image.jpg" alt="Vino Priya" width="200px">
+        <br><br>
+        <p style="padding-left: 1%;">
+            Hello! I'm VINO, a passionate full-stack web developer with a love for creating
+            beautiful, user-friendly websites and web applications.
+        </p>
+        <p style="padding-left: 1%;">
+            My journey into web development began when I discovered the magic of coding. Since then,
+            I've been on an exciting adventure, continually honing my skills and learning new
+            technologies to stay at the forefront of this dynamic field.
+        </p>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project">
+            <h3>Project 1: TRIBUTE PAGE</h3>
+            <p>This is a dedicated page celebrating the life and memory of APJ apdul kalam. It is a permanent memorial where, you, family and friends can remember your loved one and share many memories and photos to celebrate their life.</p>
+            <a href="#">View Project</a>
+        </div>
+
+        <div class="project">
+            <h3>Project 2: LANDING PAGE</h3>
+            <p> web page that a consumer can land on, but in the marketing realm, it's usually a standalone page, distinct from your homepage or any other page, that serves a single and focused purpose</p>
+            <a href="#">View Project</a>
+        </div>
+
+        <!-- Add more projects as needed -->
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <p>You can reach me at <a href="mailto:kamizbooblan333@gmail.com">vinopriyaa20@gmail.com</a>.</p>
+        <p>Connect with me on <a href="https://linkedin.com/kamesh" target="_blank">LinkedIn</a>.</p>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2023 Vino Priya</p>
+    </footer>
+</body>
+</html>
